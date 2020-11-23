@@ -24,7 +24,7 @@ const transWithQuery = (href) => {
 };
 
 if (document.getElementById("timer")) {
-  let lastTime = 10;
+  let lastTime = 300;
   setInterval(() => {
     lastTime--;
     document.getElementById("timer").textContent = lastTime + "s";
